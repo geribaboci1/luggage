@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Journey Is The Story — Legefilms</title>
+<meta name="description" content="The Journey Is The Story — a cinematic luggage campaign proposal by Legefilms.">
+<style>
+:root{--bg:#f7f7f5;--card:#fff;--ink:#111;--muted:#737373;--line:#deded9;--dark:#111;--accent:#e9e9e4;--max:1180px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}
+.container{width:min(calc(100% - 40px),var(--max));margin:auto}.nav{height:72px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;background:rgba(247,247,245,.94);backdrop-filter:blur(14px);z-index:20}.brand{font-weight:800;letter-spacing:-.04em}.navlinks{display:flex;gap:28px;font-size:12px;color:#555}.navlinks a:hover{color:#000}
+.hero{padding:105px 0 100px;border-bottom:1px solid var(--line)}.kicker{font-size:11px;text-transform:uppercase;letter-spacing:.14em;color:#777;margin-bottom:22px}.hero h1{font-size:clamp(58px,9vw,118px);line-height:.88;letter-spacing:-.075em;margin:0;max-width:1050px}.hero-sub{font-size:clamp(19px,2.1vw,28px);line-height:1.15;max-width:690px;margin:34px 0 0;color:#454545}.hero-media{margin-top:65px;aspect-ratio:2.05/1;overflow:hidden;background:#ddd}.hero-media img{width:100%;height:100%;object-fit:cover}
+.section{padding:105px 0;border-bottom:1px solid var(--line)}.section-head{display:grid;grid-template-columns:1fr 2fr;gap:40px;margin-bottom:55px}.section-number{font-size:11px;text-transform:uppercase;letter-spacing:.14em;color:#777}.section h2{font-size:clamp(38px,5.4vw,72px);line-height:.94;letter-spacing:-.06em;margin:0;max-width:850px}.copy{font-size:17px;line-height:1.6;color:#4b4b4b;max-width:720px}.copy strong{color:#111}.creator{display:grid;grid-template-columns:360px 1fr;gap:75px;align-items:start}.portrait{aspect-ratio:4/5;object-fit:cover;background:#ddd}.creator h3{font-size:15px;margin:0 0 18px}.taglist{display:flex;flex-wrap:wrap;gap:8px;margin-top:25px}.tag{background:var(--accent);border-radius:999px;padding:9px 13px;font-size:11px;color:#444}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);margin-top:60px}.stat{padding:28px 20px 0 0;border-right:1px solid var(--line)}.stat:not(:first-child){padding-left:20px}.stat:last-child{border-right:0}.stat b{font-size:clamp(42px,5vw,70px);letter-spacing:-.07em;line-height:1;display:block}.stat span{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#777}
+.reels{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.reel{aspect-ratio:9/16;background:#e6e6e2;overflow:hidden;border-radius:3px}.reel iframe{width:100%;height:100%;border:0}.reel-caption{font-size:11px;color:#777;text-align:center;margin-top:10px}
+.logos{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}.logo-card{height:135px;background:#fff;border:1px solid #e1e1dc;border-radius:3px;display:flex;align-items:center;justify-content:center;padding:24px}.logo-card img{width:100%;height:100%;object-fit:contain;filter:none!important;mix-blend-mode:normal!important;opacity:1!important}.logo-card span{font-size:11px;color:#aaa;text-align:center}
+.idea{background:#111;color:#f5f5f2}.idea .section-number,.idea .copy{color:#aaa}.idea .section{border-color:#292929}.idea .manifesto{border-color:#333;color:#fff}.manifesto{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:28px 0;margin-top:38px;font-size:clamp(24px,3.2vw,44px);line-height:1.04;letter-spacing:-.045em}
+.campaign-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);margin-top:50px}.campaign-card{background:var(--bg);padding:35px;min-height:255px}.campaign-num{font-size:11px;color:#888;margin-bottom:48px}.campaign-card h3{font-size:18px;margin:0 0 12px}.campaign-card p{font-size:15px;line-height:1.55;color:#555;margin:0;max-width:480px}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);margin-top:55px}.why-card{background:var(--bg);padding:32px}.why-card h3{font-size:14px;margin:0 0 15px}.why-card p{font-size:14px;line-height:1.55;color:#555;margin:0}
+.opportunity{padding-bottom:70px}.cta{background:#111;color:#fff;text-align:center;padding:125px 20px}.cta h2{font-size:clamp(55px,8vw,105px);line-height:.88;letter-spacing:-.07em;margin:20px auto 35px;max-width:900px}.cta p{max-width:620px;margin:0 auto 30px;color:#aaa;line-height:1.6}.button{display:inline-block;border:1px solid #666;padding:14px 20px;font-size:11px;letter-spacing:.12em;text-transform:uppercase}.footer{padding:25px 0;display:flex;justify-content:space-between;font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:#777}
+@media(max-width:850px){.container{width:min(calc(100% - 28px),var(--max))}.nav{height:60px}.navlinks{gap:15px}.hero{padding:75px 0}.hero-media{aspect-ratio:1.25/1;margin-top:45px}.section{padding:75px 0}.section-head,.creator{grid-template-columns:1fr;gap:25px}.creator{gap:35px}.portrait{max-width:500px}.stats{grid-template-columns:1fr 1fr}.stat{padding:24px 10px 24px 0!important;border-bottom:1px solid var(--line)}.logos{grid-template-columns:repeat(3,1fr)}.logo-card{height:105px;padding:18px}.campaign-grid,.why-grid{grid-template-columns:1fr}.reels{grid-template-columns:1fr 1fr;gap:8px}}
+@media(max-width:500px){.navlinks a:nth-child(2){display:none}.hero h1{font-size:17vw}.stats{grid-template-columns:1fr}.logos{grid-template-columns:repeat(2,1fr)}.logo-card{height:95px}}
+</style>
+</head>
+<body>
+<header class="nav">
+<div class="container" style="display:flex;align-items:center;justify-content:space-between;width:100%">
+<a class="brand" href="#top">LEGEFILMS</a>
+<nav class="navlinks"><a href="#creator">Creator</a><a href="#work">Work</a><a href="#campaign">Campaign</a><a href="#why">Why</a><a href="#contact">Start the campaign</a></nav>
+</div>
+</header>
+
+<main id="top">
+<section class="hero">
+<div class="container">
+<div class="kicker">Campaign Proposal</div>
+<h1>THE JOURNEY<br>IS THE STORY.</h1>
+<p class="hero-sub">Cinematic travel content for brands made to go places.</p>
+<div class="hero-media"><img src="hero.jpg" alt="Cinematic travel hero image"></div>
+</div>
+</section>
+
+<section class="section" id="creator">
+<div class="container">
+<div class="section-head"><div class="section-number">01 — Who I Am</div><h2>Creator-first content with a cinematic point of view.</h2></div>
+<div class="creator">
+<img class="portrait" src="me.jpg" alt="Geri Baboci — Legefilms">
+<div>
+<h3>Geri Baboci <span style="color:#888">@legefilms · filmmaker · photographer · content creator</span></h3>
+<p class="copy">I create cinematic photo and video content for brands, artists, hotels, and creators who want their work to feel premium, memorable, and emotionally driven. My work sits at the intersection of filmmaking, photography, music, travel, and social media.</p>
+<div class="taglist"><span class="tag">Cinematic Reels</span><span class="tag">Travel Film</span><span class="tag">Photography</span><span class="tag">Social Content</span><span class="tag">Premium Brand Content</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+<div class="section-head"><div class="section-number">02 — The Numbers</div><h2>Creative reach with real creator credibility.</h2></div>
+<div class="stats">
+<div class="stat"><b>250M+</b><span>Total views</span></div>
+<div class="stat"><b>100K+</b><span>Followers across platforms</span></div>
+<div class="stat"><b>17.6%</b><span>Engagement rate</span></div>
+<div class="stat"><b>∞</b><span>Stories to tell</span></div>
+</div>
+</div>
+</section>
+
+<section class="section" id="work">
+<div class="container">
+<div class="section-head"><div class="section-number">03 — Featured Work</div><h2>Recent cinematic work built for attention.</h2></div>
+<div class="reels">
+<div><div class="reel"><iframe src="https://www.instagram.com/reel/DShnRKyCEOe/embed/" allowfullscreen loading="lazy"></iframe></div><div class="reel-caption">Reel 01 · @legefilms</div></div>
+<div><div class="reel"><iframe src="https://www.instagram.com/reel/DQ6GzQIEUvU/embed/" allowfullscreen loading="lazy"></iframe></div><div class="reel-caption">Reel 02 · @legefilms</div></div>
+<div><div class="reel"><iframe src="https://www.instagram.com/reel/DRqOVaNkYOk/embed/" allowfullscreen loading="lazy"></iframe></div><div class="reel-caption">Reel 03 · @legefilms</div></div>
+<div><div class="reel"><iframe src="https://www.instagram.com/reel/DR4xsbMkVTA/embed/" allowfullscreen loading="lazy"></iframe></div><div class="reel-caption">Reel 04 · @legefilms</div></div>
+</div>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+<div class="section-head"><div class="section-number">04 — Trusted By</div><h2>Brands I've had the opportunity to create for.</h2></div>
+<div class="logos">
+<div class="logo-card"><img src="brand-1.png" alt="Client logo 1"></div>
+<div class="logo-card"><img src="brand-2.png" alt="Client logo 2"></div>
+<div class="logo-card"><img src="brand-3.png" alt="Client logo 3"></div>
+<div class="logo-card"><img src="brand-4.png" alt="Client logo 4"></div>
+<div class="logo-card"><img src="brand-5.png" alt="Client logo 5"></div>
+<div class="logo-card"><img src="brand-6.png" alt="Client logo 6"></div>
+</div>
+</div>
+</section>
+
+<section class="section idea">
+<div class="container">
+<div class="section-head"><div class="section-number">05 — The Idea</div><h2>LUGGAGE IS PART OF THE JOURNEY.</h2></div>
+<p class="copy">A suitcase isn't usually the reason someone travels. It's what comes with them.</p>
+<p class="copy">It gets thrown into the trunk, rolled through unfamiliar streets, carried up hotel stairs, taken through airports, and eventually brought home with everything collected along the way.</p>
+<p class="copy">That makes luggage uniquely suited to storytelling.</p>
+<p class="copy">Rather than creating traditional product advertising, I want to create films where the product naturally belongs within the story.</p>
+<div class="manifesto"><strong>The journey comes first.</strong><br><strong>The product becomes part of it.</strong></div>
+</div>
+</section>
+
+<section class="section" id="campaign">
+<div class="container">
+<div class="section-head"><div class="section-number">06 — The Campaign</div><h2>A premium content package with long-term value.</h2></div>
+<p class="copy">The campaign can be adapted around the brand, product, destination, and marketing goals — while keeping the same cinematic visual language.</p>
+<div class="campaign-grid">
+<article class="campaign-card"><div class="campaign-num">01</div><h3>Cinematic Hero Film</h3><p>A high-quality cinematic short film built around traveling the world. From New York, LA, and Paris to Rome, Tokyo, and Sydney, the story isn't just about the places I go, but the suitcase that takes me there.</p></article>
+<article class="campaign-card"><div class="campaign-num">02</div><h3>Short-form Reels</h3><p>Multiple vertical edits created for Instagram Reels and TikTok — fast, engaging, and designed around the way people actually consume travel content.</p></article>
+<article class="campaign-card"><div class="campaign-num">03</div><h3>Instagram Stories</h3><p>Behind-the-scenes moments, detail shots, stories, and additional short-form content that extend the campaign beyond the hero film.</p></article>
+<article class="campaign-card"><div class="campaign-num">04</div><h3>Lifestyle Photography</h3><p>Cinematic lifestyle photography featuring the product naturally within the journey, for social media, websites, campaigns, and marketing materials.</p></article>
+<article class="campaign-card"><div class="campaign-num">05</div><h3>Brand Assets</h3><p>A collection of polished photo and video assets that your team can continue using across digital channels.</p></article>
+<article class="campaign-card"><div class="campaign-num">06</div><h3>Usage Licensing</h3><p>Optional paid advertising and extended usage can be included when the strongest assets are needed for longer-term brand campaigns.</p></article>
+</div>
+</div>
+</section>
+
+<section class="section">
+<div class="container">
+<div class="section-head"><div class="section-number">07 — The Approach</div><h2>PRODUCT, WITHOUT THE PRODUCT-AD FEEL.</h2></div>
+<p class="copy">I don't want the luggage to simply sit in front of a camera.</p>
+<p class="copy">I want it to <strong>move.</strong><br>To travel.<br>To be used.<br>To become part of the environment and the story.</p>
+<p class="copy">Every frame would be designed to showcase the product naturally — from the details and materials to the way it moves through real environments.</p>
+<p class="copy">The result is content that feels authentic to the world of travel while still giving the product the attention it deserves.</p>
+</div>
+</section>
+
+<section class="section" id="why">
+<div class="container">
+<div class="section-head"><div class="section-number">08 — Why It Works</div><h2>Travel content should make people want to go somewhere.</h2></div>
+<div class="why-grid">
+<article class="why-card"><h3>Authentic Fit</h3><p>Luggage naturally belongs inside the real moments of travel: airports, roads, hotels, cities, and everything in between.</p></article>
+<article class="why-card"><h3>Premium Positioning</h3><p>Cinematic visuals make the product feel like part of an aspirational lifestyle rather than another product shot in a crowded feed.</p></article>
+<article class="why-card"><h3>Reusable Content</h3><p>Instead of one short-lived post, the campaign creates a library of assets that can live across social, ads, email, websites, and future campaigns.</p></article>
+</div>
+<p class="manifesto">The product gets them there.<br><strong>The story makes them want to go.</strong></p>
+</div>
+</section>
+
+<section class="section opportunity">
+<div class="container">
+<div class="section-head"><div class="section-number">09 — The Opportunity</div><h2>LET'S MAKE SOMETHING PEOPLE WANT TO PACK FOR.</h2></div>
+<p class="copy">A luggage campaign shouldn't only show people what a suitcase looks like.</p>
+<p class="copy">It should make them imagine <strong>where they could take it.</strong></p>
+<p class="copy">That's the story I want to tell.</p>
+<p class="copy">Whether the campaign takes place on the road, in the air, in a new city, or somewhere completely unexpected, I'm interested in creating something that makes the audience feel the journey.</p>
+</div>
+</section>
+
+<section class="cta" id="contact">
+<div class="container">
+<div class="kicker" style="color:#777">Let's Create Something Together</div>
+<h2>HAVE A<br>JOURNEY<br>IN MIND?</h2>
+<p>I'd love to create something with your brand. Whether you're looking for a cinematic campaign, social-first content, lifestyle photography, or a combination of all three, I'd be happy to develop a concept around your product and goals.</p>
+<a class="button" href="mailto:geri@legefilms.com">geri@legefilms.com</a>
+</div>
+</section>
+</main>
+<footer class="footer"><div class="container" style="display:flex;justify-content:space-between;width:100%"><span>@legefilms</span><span>geri@legefilms.com</span></div></footer>
+</body>
+</html>
